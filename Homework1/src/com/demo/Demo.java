@@ -10,8 +10,6 @@ public class Demo {
 		
 		ArrayList<Account> accounts = AccountFactory.generate();
 		
-		System.out.println("ddz");
-		
 	}
 
 }

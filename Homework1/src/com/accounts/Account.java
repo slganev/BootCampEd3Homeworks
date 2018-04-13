@@ -56,7 +56,7 @@ public class Account implements IBaseInterest {
 		StringBuilder message = new StringBuilder();
 		message.append("This Account is of type " + this.accountType.toString());
 		message.append(", of user " + this.names + ", SSN: " + this.SSN + ", DAN: " + this.DAN + ", with initial deposit = " + this.initialDeposit);
-		System.out.println();
+		System.out.println(message.toString());
 	}
 	
 	private void createIProperty() {
